@@ -51,7 +51,7 @@ ecs_services = {
 db_engine           = "postgres"
 db_instance_class   = "db.t3.small"
 db_name             = "myproject"
-db_username         = "admin"
+db_username         = "dbadmin"
 multi_az            = true
 deletion_protection = true
 

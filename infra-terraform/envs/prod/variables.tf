@@ -77,8 +77,14 @@ variable "db_name" {
 variable "db_username" {
   description = "Database master username"
   type        = string
-  default     = "admin"
+  default     = "dbadmin"
   sensitive   = true
+}
+
+variable "db_backup_retention_period" {
+  description = "Number of days to retain RDS backups"
+  type        = number
+  default     = 7
 }
 
 variable "multi_az" {

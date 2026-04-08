@@ -48,10 +48,11 @@ ecs_services = {
 # =============================================================================
 # RDS
 # =============================================================================
+db_backup_retention_period = 1
 db_engine         = "postgres"
 db_instance_class = "db.t3.micro"
 db_name           = "myproject"
-db_username       = "admin"
+db_username       = "dbadmin"
 multi_az          = false
 deletion_protection = false
 

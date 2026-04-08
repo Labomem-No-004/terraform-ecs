@@ -117,8 +117,9 @@ module "rds" {
   db_instance_class   = var.db_instance_class
   db_name             = var.db_name
   db_username         = var.db_username
-  multi_az            = var.multi_az
-  deletion_protection = var.deletion_protection
+  multi_az                = var.multi_az
+  deletion_protection     = var.deletion_protection
+  backup_retention_period = var.db_backup_retention_period
 }
 
 ################################################################################

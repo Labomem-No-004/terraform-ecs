@@ -66,7 +66,7 @@ variable "db_name" {
 variable "db_username" {
   description = "Master username for the database"
   type        = string
-  default     = "admin"
+  default     = "dbadmin"
 }
 
 variable "multi_az" {
