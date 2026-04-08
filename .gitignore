@@ -1,0 +1,13 @@
+# IDE
+.idea/
+*.iml
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+crash.log
+
+# OS
+.DS_Store
